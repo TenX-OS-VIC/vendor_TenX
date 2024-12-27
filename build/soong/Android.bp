@@ -510,6 +510,9 @@ qcom_libfmjni {
     soong_config_variables: {
         no_fm_firmware: {
             cflags: ["-DQCOM_NO_FM_FIRMWARE"],
+        },
+    },
+}
 
 soong_config_module_type {
     name: "uses_oplus_camera",
